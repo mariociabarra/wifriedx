@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.mariociabarra.WiFriedXHelper</string>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>Sockets</key>
+	<dict>
+		<key>ListenerSocket</key>
+		<dict>
+			<key>SockPathName</key>
+			<string>/var/tmp/wifriedx.sock</string>
+			<key>SockPathMode</key>
+			<integer>511</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

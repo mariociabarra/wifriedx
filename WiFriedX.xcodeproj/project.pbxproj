@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BE4906110445E13006BE471 /* WiFriedXHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4905510445DDD006BE471 /* WiFriedXHelper.m */; };
+		4BE4906410445F2F006BE471 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE4906310445F2F006BE471 /* Security.framework */; };
+		4BE4906810445F36006BE471 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE4906710445F36006BE471 /* ServiceManagement.framework */; };
+		4BE49092104463A0006BE471 /* com.mariociabarra.WiFriedXHelper in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4BE4905D10445E0A006BE471 /* com.mariociabarra.WiFriedXHelper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D55757471A394D3700F632E6 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D55757461A394D3700F632E6 /* CoreServices.framework */; };
+		D59470E91A38115100E7FE0E /* WiFriedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D59470E81A38115100E7FE0E /* WiFriedManager.m */; };
+		D59F747B1A36BED300AEC2B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D59F74711A36BED300AEC2B8 /* main.m */; };
+		D59F747D1A36BED300AEC2B8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D59F74731A36BED300AEC2B8 /* MainMenu.xib */; };
+		D59F747E1A36BED300AEC2B8 /* wifried-osx-fried.png in Resources */ = {isa = PBXBuildFile; fileRef = D59F74741A36BED300AEC2B8 /* wifried-osx-fried.png */; };
+		D59F747F1A36BED300AEC2B8 /* wifried-osx-fried@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D59F74751A36BED300AEC2B8 /* wifried-osx-fried@2x.png */; };
+		D59F74801A36BED300AEC2B8 /* wifried-osx-ok.png in Resources */ = {isa = PBXBuildFile; fileRef = D59F74761A36BED300AEC2B8 /* wifried-osx-ok.png */; };
+		D59F74811A36BED300AEC2B8 /* wifried-osx-ok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D59F74771A36BED300AEC2B8 /* wifried-osx-ok@2x.png */; };
+		D59F74831A36BED300AEC2B8 /* WiFriedXAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59F747A1A36BED300AEC2B8 /* WiFriedXAppController.m */; };
+		D5B533AC1A38207300CFDEDC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B533AB1A38207300CFDEDC /* SystemConfiguration.framework */; };
+		D5B533B21A3825BC00CFDEDC /* WiFriedXIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = D5B533B11A3825BC00CFDEDC /* WiFriedXIcon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BE4907E1044624F006BE471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BE4905C10445E0A006BE471;
+			remoteInfo = WiFriedXHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4BE49098104463C5006BE471 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				4BE49092104463A0006BE471 /* com.mariociabarra.WiFriedXHelper in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		4BE4905310445DDD006BE471 /* WiFriedXHelper-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WiFriedXHelper-Info.plist"; sourceTree = "<group>"; };
+		4BE4905410445DDD006BE471 /* WiFriedXHelper-Launchd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WiFriedXHelper-Launchd.plist"; sourceTree = "<group>"; };
+		4BE4905510445DDD006BE471 /* WiFriedXHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiFriedXHelper.m; sourceTree = "<group>"; };
+		4BE4905D10445E0A006BE471 /* com.mariociabarra.WiFriedXHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.mariociabarra.WiFriedXHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE4906310445F2F006BE471 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4BE4906710445F36006BE471 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		8D1107320486CEB800E47090 /* WiFriedX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiFriedX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D55339E81A36DD1200BEDC2C /* WiFriedX_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiFriedX_private.h; sourceTree = "<group>"; };
+		D55757461A394D3700F632E6 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		D59470E71A38115100E7FE0E /* WiFriedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiFriedManager.h; sourceTree = "<group>"; };
+		D59470E81A38115100E7FE0E /* WiFriedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiFriedManager.m; sourceTree = "<group>"; };
+		D59F74711A36BED300AEC2B8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D59F74731A36BED300AEC2B8 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		D59F74741A36BED300AEC2B8 /* wifried-osx-fried.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wifried-osx-fried.png"; sourceTree = "<group>"; };
+		D59F74751A36BED300AEC2B8 /* wifried-osx-fried@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wifried-osx-fried@2x.png"; sourceTree = "<group>"; };
+		D59F74761A36BED300AEC2B8 /* wifried-osx-ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wifried-osx-ok.png"; sourceTree = "<group>"; };
+		D59F74771A36BED300AEC2B8 /* wifried-osx-ok@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wifried-osx-ok@2x.png"; sourceTree = "<group>"; };
+		D59F74781A36BED300AEC2B8 /* WiFriedXApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WiFriedXApp-Info.plist"; sourceTree = "<group>"; };
+		D59F74791A36BED300AEC2B8 /* WiFriedXAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiFriedXAppController.h; sourceTree = "<group>"; };
+		D59F747A1A36BED300AEC2B8 /* WiFriedXAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiFriedXAppController.m; sourceTree = "<group>"; };
+		D5B533AB1A38207300CFDEDC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D5B533B11A3825BC00CFDEDC /* WiFriedXIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = WiFriedXIcon.icns; sourceTree = SOURCE_ROOT; };
+		E49FD4261608971E00E6D764 /* Uninstall.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Uninstall.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BE4905B10445E0A006BE471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55757471A394D3700F632E6 /* CoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B533AC1A38207300CFDEDC /* SystemConfiguration.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				4BE4906410445F2F006BE471 /* Security.framework in Frameworks */,
+				4BE4906810445F36006BE471 /* ServiceManagement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* WiFriedX.app */,
+				4BE4905D10445E0A006BE471 /* com.mariociabarra.WiFriedXHelper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* WiFriedX */ = {
+			isa = PBXGroup;
+			children = (
+				D55339E81A36DD1200BEDC2C /* WiFriedX_private.h */,
+				D59F74701A36BED300AEC2B8 /* WiFriedXApp */,
+				4BE4905210445DDD006BE471 /* WiFriedXHelper */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				E49FD4261608971E00E6D764 /* Uninstall.sh */,
+			);
+			name = WiFriedX;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D55757461A394D3700F632E6 /* CoreServices.framework */,
+				D5B533AB1A38207300CFDEDC /* SystemConfiguration.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				4BE4906310445F2F006BE471 /* Security.framework */,
+				4BE4906710445F36006BE471 /* ServiceManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BE4905210445DDD006BE471 /* WiFriedXHelper */ = {
+			isa = PBXGroup;
+			children = (
+				4BE4905310445DDD006BE471 /* WiFriedXHelper-Info.plist */,
+				4BE4905410445DDD006BE471 /* WiFriedXHelper-Launchd.plist */,
+				4BE4905510445DDD006BE471 /* WiFriedXHelper.m */,
+			);
+			path = WiFriedXHelper;
+			sourceTree = "<group>";
+		};
+		D59F74701A36BED300AEC2B8 /* WiFriedXApp */ = {
+			isa = PBXGroup;
+			children = (
+				D5B533B11A3825BC00CFDEDC /* WiFriedXIcon.icns */,
+				D59F74711A36BED300AEC2B8 /* main.m */,
+				D59F74731A36BED300AEC2B8 /* MainMenu.xib */,
+				D59F74741A36BED300AEC2B8 /* wifried-osx-fried.png */,
+				D59F74751A36BED300AEC2B8 /* wifried-osx-fried@2x.png */,
+				D59F74761A36BED300AEC2B8 /* wifried-osx-ok.png */,
+				D59F74771A36BED300AEC2B8 /* wifried-osx-ok@2x.png */,
+				D59F74781A36BED300AEC2B8 /* WiFriedXApp-Info.plist */,
+				D59F74791A36BED300AEC2B8 /* WiFriedXAppController.h */,
+				D59F747A1A36BED300AEC2B8 /* WiFriedXAppController.m */,
+				D59470E71A38115100E7FE0E /* WiFriedManager.h */,
+				D59470E81A38115100E7FE0E /* WiFriedManager.m */,
+			);
+			path = WiFriedXApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BE4905C10445E0A006BE471 /* com.mariociabarra.WiFriedXHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BE4906210445E31006BE471 /* Build configuration list for PBXNativeTarget "com.mariociabarra.WiFriedXHelper" */;
+			buildPhases = (
+				4BE4905A10445E0A006BE471 /* Sources */,
+				4BE4905B10445E0A006BE471 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = com.mariociabarra.WiFriedXHelper;
+			productName = WiFriedXHelper;
+			productReference = 4BE4905D10445E0A006BE471 /* com.mariociabarra.WiFriedXHelper */;
+			productType = "com.apple.product-type.tool";
+		};
+		8D1107260486CEB800E47090 /* WiFriedX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "WiFriedX" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				4BE49098104463C5006BE471 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BE4907F1044624F006BE471 /* PBXTargetDependency */,
+			);
+			name = WiFriedX;
+			productInstallPath = "$(HOME)/Applications";
+			productName = WiFriedX;
+			productReference = 8D1107320486CEB800E47090 /* WiFriedX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					4BE4905C10445E0A006BE471 = {
+						DevelopmentTeam = 2M9WJR8Y39;
+					};
+					8D1107260486CEB800E47090 = {
+						DevelopmentTeam = 2M9WJR8Y39;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WiFriedX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* WiFriedX */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* WiFriedX */,
+				4BE4905C10445E0A006BE471 /* com.mariociabarra.WiFriedXHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B533B21A3825BC00CFDEDC /* WiFriedXIcon.icns in Resources */,
+				D59F74811A36BED300AEC2B8 /* wifried-osx-ok@2x.png in Resources */,
+				D59F747F1A36BED300AEC2B8 /* wifried-osx-fried@2x.png in Resources */,
+				D59F74801A36BED300AEC2B8 /* wifried-osx-ok.png in Resources */,
+				D59F747D1A36BED300AEC2B8 /* MainMenu.xib in Resources */,
+				D59F747E1A36BED300AEC2B8 /* wifried-osx-fried.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BE4905A10445E0A006BE471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE4906110445E13006BE471 /* WiFriedXHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59F74831A36BED300AEC2B8 /* WiFriedXAppController.m in Sources */,
+				D59F747B1A36BED300AEC2B8 /* main.m in Sources */,
+				D59470E91A38115100E7FE0E /* WiFriedManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BE4907F1044624F006BE471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BE4905C10445E0A006BE471 /* com.mariociabarra.WiFriedXHelper */;
+			targetProxy = 4BE4907E1044624F006BE471 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BE4905F10445E0B006BE471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_OBJC_UNUSED_IVARS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Intelliborn Corporation (2M9WJR8Y39)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application: Intelliborn Corporation (2M9WJR8Y39)";
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "WiFriedXHelper/WiFriedXHelper-Info.plist";
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"WiFriedXHelper/WiFriedXHelper-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"WiFriedXHelper/WiFriedXHelper-Launchd.plist",
+				);
+				PRODUCT_NAME = com.mariociabarra.WiFriedXHelper;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4BE4906010445E0B006BE471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_OBJC_UNUSED_IVARS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Intelliborn Corporation (2M9WJR8Y39)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application: Intelliborn Corporation (2M9WJR8Y39)";
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "WiFriedXHelper/WiFriedXHelper-Info.plist";
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"WiFriedXHelper/WiFriedXHelper-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"WiFriedXHelper/WiFriedXHelper-Launchd.plist",
+				);
+				PRODUCT_NAME = com.mariociabarra.WiFriedXHelper;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Intelliborn Corporation (2M9WJR8Y39)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application: Intelliborn Corporation (2M9WJR8Y39)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				INFOPLIST_FILE = "WiFriedXApp/WiFriedXApp-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = WiFriedX;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Intelliborn Corporation (2M9WJR8Y39)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application: Intelliborn Corporation (2M9WJR8Y39)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				INFOPLIST_FILE = "WiFriedXApp/WiFriedXApp-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = WiFriedX;
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Intelliborn Corporation (2M9WJR8Y39)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Intelliborn Corporation (2M9WJR8Y39)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BE4906210445E31006BE471 /* Build configuration list for PBXNativeTarget "com.mariociabarra.WiFriedXHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BE4905F10445E0B006BE471 /* Debug */,
+				4BE4906010445E0B006BE471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "WiFriedX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WiFriedX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
