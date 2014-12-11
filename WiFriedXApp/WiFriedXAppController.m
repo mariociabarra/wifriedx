@@ -99,14 +99,25 @@
      
 - (void) updateStatus
 {
+    static NSImage *OKImage;
+    static NSImage *FriedImage;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        OKImage = [NSImage imageNamed:@"wifried-osx-ok"];
+        [OKImage setTemplate:YES];
+        
+        FriedImage = [NSImage imageNamed:@"wifried-osx-fried"];
+        [FriedImage setTemplate:YES];
+    });
+    
     if (!awdlEnabled)
     {
-        [statusItem setImage:[NSImage imageNamed:@"wifried-osx-ok"]];
+        [statusItem setImage:OKImage];
         [awdlItem setState:NSOnState];
     }
     else
     {
-        [statusItem setImage:[NSImage imageNamed:@"wifried-osx-fried"]];
+        [statusItem setImage:FriedImage];
         [awdlItem setState:NSOffState];
     }
 }
