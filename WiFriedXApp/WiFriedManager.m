@@ -24,8 +24,11 @@ static WiFriedManager* sharedManager = nil;
 
 + (WiFriedManager*) sharedInstance
 {
-    if (sharedManager == nil)
-         sharedManager = [[WiFriedManager alloc] init];
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        sharedManager = [[WiFriedManager alloc] init];
+    });
+
     return sharedManager;
 }
 
