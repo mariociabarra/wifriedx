@@ -34,7 +34,7 @@
 
 bool setAWDLIFUp(bool up);
 void SocketAcceptCallback(CFSocketRef s, CFSocketCallBackType type, CFDataRef address, const void *data, void *info);
-void selfDestructIfNeeded();
+void selfDestructIfNeeded(void);
 
 
 
