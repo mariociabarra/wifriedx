@@ -269,6 +269,7 @@ static void callback(SCDynamicStoreRef store, CFArrayRef changedKeys, void* info
         if (!result)
         {
             error = CFBridgingRelease(cfError);
+            NSLog(@"Could not perform JobBless: %@", error.localizedDescription);
         }
     }
     
