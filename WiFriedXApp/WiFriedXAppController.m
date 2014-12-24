@@ -61,7 +61,7 @@
 
     awdlItem = [[NSMenuItem alloc] initWithTitle:@"Disable AWDL/AirDrop" action:@selector(toggleEnable:) keyEquivalent:@"E"];
     launchOnStart = [[NSMenuItem alloc] initWithTitle:@"Launch On Start" action:@selector(toggleLaunch:) keyEquivalent:@""];
-    NSMenuItem* aboutItem = [[NSMenuItem alloc] initWithTitle:@"WiFriedX 1.1 by @mariociabarra" action:@selector(openURL) keyEquivalent:@""];
+    NSMenuItem* aboutItem = [[NSMenuItem alloc] initWithTitle:@"WiFriedX 1.2 by @mariociabarra" action:@selector(openURL) keyEquivalent:@""];
     NSMenuItem *quit = [[NSMenuItem alloc] initWithTitle:@"Quit" action:@selector(quit_application) keyEquivalent:@"Q"];
 
     if ([[WiFriedManager sharedInstance] isLaunchAtStartup])

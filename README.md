@@ -13,6 +13,9 @@ Summed up, it's a glorified "sudo ifconfig awdl0 down" that monitors the interfa
 Contains:
   - Menu bar item which monitors the interface and sends commands to daemon helper
   - SMBlessed PriviledgedHelper daemon to bring the interface up/down
-    
+
+VERSION 1.2 ChangeLog:  
+- Support for OS X dark menu bar by kirb (Adam D)  
+      
   
 Uninstall Note: If a user does not uncheck launch at login in the app before deleting the app, ther user can uncheck under Preferences -> User Accounts -> Login Items.  The entry is simply an entry in the launch login item plist, but just to be clear.
